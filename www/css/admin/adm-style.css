@@ -1,0 +1,140 @@
+/* 
+    Document   : adm-style
+    Created on : 18.01.2013, 13:10:29
+    Author     : egorik
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.adm-box-color{
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+.adm_ico_delete{
+    background: url(/images/admin/delete.png) no-repeat;
+}
+.adm_ico_eye{
+    background: url(/images/admin/eye.png) no-repeat;
+}
+.adm_ico_no_eye{
+    background: url(/images/admin/no_eye.png) no-repeat;
+}
+.adm_ico_pencil{
+    background: url(/images/admin/pencil.png) no-repeat;
+}
+.adm_ico_round_minus{
+    background: url(/images/admin/round_minus.png) no-repeat;
+}
+.adm_ico_round_checkmark{
+    background: url(/images/admin/round_checkmark.png) no-repeat;
+}
+
+
+.adm_ico {
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    display: inline-table;    
+}
+
+.adm_ico_32_round_checkmark_doc_plus{
+    background: url(/images/admin/doc_plus.png) no-repeat;
+}
+.adm_ico_32_list_num{
+    background: url(/images/admin/list_num.png) no-repeat;
+}
+.adm_ico_32_calendar_2{
+    background: url(/images/admin/calendar_2.png) no-repeat;
+}
+.adm_ico_32 {
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    display: inline-table;    
+}
+
+.adm_table_calendar{
+    vertical-align: top;
+    padding: 0;
+}
+
+.adm_table_calendar tbody tr td {
+    border:solid 1px;
+    width:110px;
+    height:110px;
+    vertical-align: top;
+    font-size: 11px;
+    padding: 0;
+}
+.adm_table_calendar tbody tr td.day_off{
+    border:solid 1px red;
+    color:red;
+}
+.adm_table_calendar tbody tr td .date_header{
+    display: inline-table;
+    width: 100%;    
+    height: 20px;
+    color: #000;
+    text-align: right;
+    padding-top: 3px; 
+    font-size: 14px;
+}
+.adm_table_calendar tbody tr td:hover .date_header{
+    display: inline-table;
+    width: 100%;
+    background-color: #494949;
+    height: 20px;
+    color: #fff;
+    text-align: right;
+    padding-top: 3px; 
+    font-size: 14px;
+}
+.adm_table_calendar tbody tr td.m_day:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.adm_table_calendar tbody tr td.day_off:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.adm_table_calendar tbody tr td.other_day{
+    border:solid 1px #ccc;
+}
+.adm_table_calendar tbody tr td:hover.other_day{
+    
+}
+.adm_table_calendar_settings tbody tr td{
+    
+    text-align: left;
+}
+.adm_table_calendar_settings tbody tr td input#from.hasDatepicker{
+    width: 70px;
+}
+.adm_table_calendar_settings tbody tr td input#to.hasDatepicker{
+    width: 70px;
+}
+.adm_table_calendar_settings tbody tr td input#datepicker.hasDatepicker{
+    width: 70px;
+}
+.adm_table_calendar_settings tbody tr td.adm_table_calendar_settings_fixed{
+    width: 100px;
+}
+
+.adm_table_calendar_add{
+    display: inline-table;
+    width: 100%;
+    text-align: center;
+}
+.adm_table_calendar_other_day_a{
+    display: inline-table;
+    height: 100%;
+    width: 100%;
+}
